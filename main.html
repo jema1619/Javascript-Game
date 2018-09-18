@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fish Game</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas width="700" height="500" id="canvas"></canvas>
+        <audio src="sound/dead.wav" id="die"></audio>
+        <audio src="sound/target1.WAV" id="catch"></audio>
+        <div id="main-div">
+            <div id="button-container">
+                <button onclick="start()">Play</button>
+                <button onclick="stop()">Stop</button>
+            </div>
+            <div id="link-container">
+                <p id="lives-p">Lives: <a href="#" id="lives"> 3</a></p>
+                <p id="score-p">Score: <a href="#" id="score"> 0</a></p>
+            </div>
+        </div>
+        <div class="menucontainer">
+            <button onclick="instruction()" id="instruct-Btn">Instruction</button>
+                <p class="hide" id="show">
+                    This game only works on computers, you are the yellow fish. <br> Control the yellow fish with the arrow-keys. <br> Catch as many diamonds as possible without getting caught by all the other fishes.
+                </p>
+        </div>
+        
+    <script src="game.js"></script>
+    </body>
+</html>

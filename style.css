@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    width: 700px;
+}
+
+canvas {
+    background: url(images/Artboard%201.png);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative; 
+}
+
+#main-div {
+    width: 100%;
+    position: relative;
+}
+
+#button-container {
+    margin: 0 auto;
+    width: 315px;
+    padding: 11px;
+}
+
+button {
+    background-image: url(images/Artboard%201.png);
+    color: #989898;
+    padding: 7px 50px;
+    font-family: fantasy;
+    font-size: x-large;
+    width: 49.3%;  
+    border: none;
+    
+}
+
+#instruct-Btn {
+    margin: 0 auto;
+    display: block;
+    width: 315px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+}
+
+#lives-p {
+    position: absolute;
+    left: 5px;
+    top: -15px;
+    color: #989898;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+#score-p {
+    position: absolute;
+    right: 5px;
+    top: -15px;
+    color: #989898;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #989898;
+}
+
+.hide {
+  display: none;
+  padding: 0 30px;
+}
+
+.menu {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: lightgray;
+}
+
+p {
+    line-height: 20px;
+    font-family: monospace
+}
